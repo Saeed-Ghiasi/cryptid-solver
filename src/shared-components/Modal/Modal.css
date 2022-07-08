@@ -1,0 +1,23 @@
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal .container {
+  width: 80vw;
+  height: 70vh;
+  margin: 3vh auto;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1rem;
+}

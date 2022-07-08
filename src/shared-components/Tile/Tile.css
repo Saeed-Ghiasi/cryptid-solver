@@ -1,0 +1,91 @@
+.six-sided {
+  width: calc(100vw/13);
+  height: calc(100vw/13);
+  background-color: black;
+  border-radius: 50%;
+  margin: 1rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.six-sided.water {
+  background-color: aqua;
+}
+
+.six-sided.swamp {
+  background-color: blueviolet;
+}
+
+.six-sided.mountain {
+  background-color: grey;
+}
+
+.six-sided.forest {
+  background-color: green;
+}
+
+.six-sided.desert {
+  background-color: yellow;
+}
+
+.tile {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile.stones {
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+}
+
+.tile.stones.blues {
+  background-color: blue;
+}
+
+.tile.stones.greens {
+  background-color: greenyellow;
+}
+
+.tile.stones.whites {
+  background-color: white;
+}
+
+.tile.shacks {
+  width: 0;
+  height: 0;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-bottom: 4vw solid white;
+}
+
+.tile.shacks.blues {
+  border-bottom: 4vw solid blue;
+}
+
+.tile.shacks.greens {
+  border-bottom: 4vw solid greenyellow;
+}
+
+.tile.shacks.whites {
+  border-bottom: 4vw solid white;
+}
+
+.bears {
+  width: 3vw;
+  height: 3vw;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.cougars {
+  width: 3vw;
+  height: 3vw;
+  background-color: transparent;
+  border: 2px solid orangered;
+  border-radius: 50%;
+}
