@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cryptid-solver/static/css/main.bd7e9894.css",
+    "main.js": "/cryptid-solver/static/js/main.c77d843b.js",
+    "static/js/787.538680b7.chunk.js": "/cryptid-solver/static/js/787.538680b7.chunk.js",
+    "index.html": "/cryptid-solver/index.html",
+    "main.bd7e9894.css.map": "/cryptid-solver/static/css/main.bd7e9894.css.map",
+    "main.c77d843b.js.map": "/cryptid-solver/static/js/main.c77d843b.js.map",
+    "787.538680b7.chunk.js.map": "/cryptid-solver/static/js/787.538680b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd7e9894.css",
+    "static/js/main.c77d843b.js"
+  ]
+}
